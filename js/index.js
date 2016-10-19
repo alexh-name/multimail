@@ -12,7 +12,7 @@ var mm_counter = 0;
 function compose() {
   var date = new Date();
   new_msg = 
-    "\f"+"Reply-To: <crew-post@jugendrettet.org>"+"\n"
+    "\f"+"Reply-To: <reply@example.com>"+"\n"
     +"Date: "+date+"\n"
     +"From: "+$("#from").val()+"\n"
     +"To: "+$("#to").val()+"\n"
