@@ -13,6 +13,8 @@ function compose() {
   var date = new Date();
   new_msg = 
     "\f"+"Reply-To: <reply@example.com>"+"\n"
+    +"Content-Type: text/plain; charset=utf-8; format=flowed"+"\n"
+    +"Content-Transfer-Encoding: 8bit"+"\n"
     +"Date: "+date+"\n"
     +"From: "+$("#from").val()+"\n"
     +"To: "+$("#to").val()+"\n"
