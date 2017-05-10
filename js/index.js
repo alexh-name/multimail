@@ -13,6 +13,8 @@ function compose() {
   var date = new Date();
   new_msg = 
     "\f"+"Reply-To: <crewpost@jugendrettet.org>"+"\n"
+    +"Content-Type: text/plain; charset=utf-8; format=flowed"+"\n"
+    +"Content-Transfer-Encoding: 8bit"+"\n"
     +"Date: "+date+"\n"
     +"From: "+$("#from").val()+"\n"
     +"To: "+$("#to").val()+"\n"
@@ -96,3 +98,4 @@ copyTextareaBtn.addEventListener('click', function(event) {
     console.log('Oops, unable to copy');
   }
 });
+
